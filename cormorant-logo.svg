@@ -1,0 +1,56 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cormorant in diving/fishing pose - captures distinctive traits -->
+  <defs>
+    <style>
+      .body {
+        fill: #075571;
+      }
+      .detail {
+        fill: none;
+        stroke: #075571;
+        stroke-width: 1.5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  
+  <!-- Main body (streamlined, elongated) -->
+  <ellipse cx="60" cy="70" rx="16" ry="28" class="body"/>
+  
+  <!-- Extended neck (characteristic long S-curve) -->
+  <path d="M 58 45 Q 55 35 58 25 Q 60 18 65 15" class="detail" stroke-width="5"/>
+  
+  <!-- Head (pointed forward, alert) -->
+  <ellipse cx="68" cy="12" rx="6" ry="5" class="body"/>
+  
+  <!-- Long pointed beak (very characteristic of cormorant) -->
+  <path d="M 72 12 L 95 10" class="detail" stroke-width="3"/>
+  
+  <!-- Beak underside detail -->
+  <path d="M 72 13 L 93 14" class="detail" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Eye (bright, alert) -->
+  <circle cx="70" cy="10" r="1.5" class="body"/>
+  
+  <!-- Wing (swept back for diving) -->
+  <path d="M 55 60 Q 35 55 28 68 Q 25 75 35 80" class="body" opacity="0.85"/>
+  
+  <!-- Wing detail/feather texture -->
+  <path d="M 50 62 Q 38 58 32 68" class="detail" opacity="0.6" stroke-width="1"/>
+  <path d="M 48 68 Q 36 65 30 73" class="detail" opacity="0.6" stroke-width="1"/>
+  
+  <!-- Tail feathers (pointed, streamlined) -->
+  <path d="M 50 95 L 42 110" class="detail" stroke-width="2.5"/>
+  <path d="M 55 98 L 50 115" class="detail" stroke-width="2.5"/>
+  <path d="M 60 98 L 60 116" class="detail" stroke-width="2.5"/>
+  
+  <!-- Legs (webbed feet visible below) -->
+  <g class="detail">
+    <line x1="55" y1="96" x2="52" y2="106"/>
+    <line x1="62" y1="97" x2="66" y2="107"/>
+  </g>
+  
+  <!-- Water line accent (suggests diving/fishing habitat) -->
+  <path d="M 20 105 Q 60 108 100 105" class="detail" opacity="0.4" stroke-width="2"/>
+</svg>

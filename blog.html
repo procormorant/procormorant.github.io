@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog - Procormorant</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,600;1,700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="cormorant-logo.svg" type="image/svg+xml">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+                        <defs>
+                            <style>
+                                .body { fill: #075571; }
+                                .detail { fill: none; stroke: #075571; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+                            </style>
+                        </defs>
+                        <ellipse cx="60" cy="70" rx="16" ry="28" class="body"/>
+                        <path d="M 58 45 Q 55 35 58 25 Q 60 18 65 15" class="detail" stroke-width="5"/>
+                        <ellipse cx="68" cy="12" rx="6" ry="5" class="body"/>
+                        <path d="M 72 12 L 95 10" class="detail" stroke-width="3"/>
+                        <path d="M 72 13 L 93 14" class="detail" stroke-width="2" opacity="0.6"/>
+                        <circle cx="70" cy="10" r="1.5" class="body"/>
+                        <path d="M 55 60 Q 35 55 28 68 Q 25 75 35 80" class="body" opacity="0.85"/>
+                        <path d="M 50 62 Q 38 58 32 68" class="detail" opacity="0.6" stroke-width="1"/>
+                        <path d="M 48 68 Q 36 65 30 73" class="detail" opacity="0.6" stroke-width="1"/>
+                        <path d="M 50 95 L 42 110" class="detail" stroke-width="2.5"/>
+                        <path d="M 55 98 L 50 115" class="detail" stroke-width="2.5"/>
+                        <path d="M 60 98 L 60 116" class="detail" stroke-width="2.5"/>
+                        <line x1="55" y1="96" x2="52" y2="106" class="detail"/>
+                        <line x1="62" y1="97" x2="66" y2="107" class="detail"/>
+                        <path d="M 20 105 Q 60 108 100 105" class="detail" opacity="0.4" stroke-width="2"/>
+                    </svg>
+                    <span class="brand-name">Procormorant</span>
+                </div>
+                <nav class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="index.html#contact">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Blog Header -->
+    <div class="blog-header">
+        <div class="container">
+            <h1>Blog & Reference Library</h1>
+            <p class="tagline">Insights on low-code, productivity, IT consultancy, and professional development</p>
+        </div>
+    </div>
+
+    <!-- Blog Posts -->
+    <main class="blog-container">
+        <section class="posts-grid">
+            <!-- Sample Post 1 -->
+            <article class="post-card">
+                <div>
+                    <div class="post-meta">
+                        <span class="post-category">Low-Code</span>
+                        <span>March 23, 2026</span>
+                    </div>
+                    <h2 class="post-title">Getting Started with Low-Code Platforms</h2>
+                    <p class="post-excerpt">
+                        An introduction to low-code and no-code development platforms. Learn how these tools can accelerate your development process, reduce technical debt, and empower business teams to create solutions without deep programming knowledge.
+                    </p>
+                    <a href="posts/post-001.html" class="post-link">Read More →</a>
+                </div>
+            </article>
+
+            <!-- Sample Post 2 -->
+            <article class="post-card">
+                <div>
+                    <div class="post-meta">
+                        <span class="post-category">Productivity</span>
+                        <span>March 20, 2026</span>
+                    </div>
+                    <h2 class="post-title">Automation: The Path to Effective Task Management</h2>
+                    <p class="post-excerpt">
+                        Discover how strategic automation can transform your workflow. From email filters to task management workflows, learn practical techniques to reclaim your time and focus on high-value work.
+                    </p>
+                    <a href="posts/post-002.html" class="post-link">Read More →</a>
+                </div>
+            </article>
+
+            <!-- Sample Post 3 -->
+            <article class="post-card">
+                <div>
+                    <div class="post-meta">
+                        <span class="post-category">Professional Development</span>
+                        <span>March 18, 2026</span>
+                    </div>
+                    <h2 class="post-title">Time Management: Beyond the Productivity Myth</h2>
+                    <p class="post-excerpt">
+                        Time management isn't about doing more—it's about doing what matters. Explore evidence-based strategies for prioritization, saying no effectively, and building sustainable work habits.
+                    </p>
+                    <a href="posts/post-003.html" class="post-link">Read More →</a>
+                </div>
+            </article>
+
+            <!-- Sample Post 4 -->
+            <article class="post-card">
+                <div>
+                    <div class="post-meta">
+                        <span class="post-category">IT Consultancy</span>
+                        <span>March 15, 2026</span>
+                    </div>
+                    <h2 class="post-title">Digital Transformation: A Consultant's Perspective</h2>
+                    <p class="post-excerpt">
+                        A deep dive into digital transformation projects. Learn what works, what doesn't, and practical advice for navigating technology adoption, change management, and measuring ROI.
+                    </p>
+                    <a href="posts/post-004.html" class="post-link">Read More →</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Procormorant. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
